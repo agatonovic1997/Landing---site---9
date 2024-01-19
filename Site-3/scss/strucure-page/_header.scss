@@ -1,0 +1,40 @@
+ body,
+ html {
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: $dark-blue-color !important;
+ }
+
+ button {
+    background-color: $deep-pink-color !important;
+ }
+
+ nav {
+    background-color: $dark-blue-color;
+    color: $white-color;
+ }
+
+ a {
+    color: $white-color !important;
+    text-transform: uppercase;
+ }
+
+ .form-control {
+    background-color: $dark-blue-color-input !important;
+ }
+
+ ::placeholder {
+    color: $silver-color !important;
+    ;
+ }
+
+ .active {
+    color: $deep-pink-color !important;
+    ;
+ }
+
+ .fas {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 8px $silver-color;
+ }
