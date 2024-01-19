@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@media (max-width: 992px) {
+  .text-slider {
+    top: -310px !important;
+    padding: 45px;
+  }
+}
+@media (max-width: 576px) {
+  .text-slider {
+    top: -150px !important;
+    padding: 25px;
+    font-size: 17px !important;
+  }
+  .position-col {
+    top: -130px !important;
+  }
+}
+.section {
+  font-family: "Playfair Display", serif;
+}
+
+nav {
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h4,
+h6 {
+  font-weight: 800 !important;
+}
+
+.text-slider {
+  font-family: "Playfair Display", serif;
+  position: relative;
+  top: -400px;
+  color: #fff;
+}
+
+.position-col {
+  position: relative;
+  top: -90px;
+}
+
+.background-footer {
+  background-color: #141414;
+  color: white;
+  font-family: "Playfair Display", serif !important;
+}
+
+input[type=email] {
+  background-color: #141414;
+  color: #fff;
+  border: none;
+  outline: 1px solid #fff;
+  padding: 10px;
+}
+
+.gray-text {
+  color: rgb(150, 150, 150);
+}/*# sourceMappingURL=main.css.map */

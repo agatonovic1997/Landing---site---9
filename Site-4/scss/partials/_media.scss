@@ -1,0 +1,19 @@
+@media (max-width:992px) {
+    .text-slider {
+        top: -310px !important;
+        padding: 45px;
+    }
+}
+
+@media (max-width:576px) {
+    .text-slider {
+        top: -150px !important;
+        padding: 25px;
+        font-size: 17px !important;
+    }
+
+    .position-col {
+        top: -130px !important;
+        ;
+    }
+}
