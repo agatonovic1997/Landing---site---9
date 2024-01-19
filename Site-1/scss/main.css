@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rokkitt:wght@500&display=swap");
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.background-navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.wrapper-red {
+  background-color: #FF3D00;
+  color: #fff;
+  border-radius: 250px;
+  height: 45px;
+  width: 155px;
+  background-color: #FF3D00;
+  box-shadow: 0 4px 25px 0px rgba(255, 61, 0, 0.5);
+  color: #fff;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+a {
+  color: #fff !important;
+}
+
+.form-control {
+  background-color: transparent !important;
+  border-radius: 250px !important;
+}
+
+.form-control::-moz-placeholder {
+  color: #fff !important;
+}
+
+.form-control::placeholder {
+  color: #fff !important;
+}
+
+button {
+  background-color: #fff !important;
+}
+
+.navbar.scrolled {
+  transition: background-color 0.3s ease;
+}
+
+.navbar-hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease;
+}
+
+.main-text {
+  font-size: 275px;
+  font-family: "Rokkitt", serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -25%);
+  text-transform: uppercase;
+}
+
+.name-city {
+  text-decoration: underline;
+}
+
+.active-link {
+  color: #FF3D00;
+}
+
+.brightness {
+  filter: brightness(45%);
+}
+
+.wrapper {
+  position: absolute;
+  top: -120px;
+}
+
+.text p {
+  color: #fff;
+}
+
+.uppercase-text {
+  text-transform: uppercase;
+}
+
+.black-background {
+  background-color: #000;
+  color: #fff;
+}
+
+.heading-section {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #FF3D00;
+  border-radius: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.custom-scrollbar p {
+  opacity: 0.7;
+}
+
+@media (max-width: 992px) {
+  .main-text {
+    font-size: 125px;
+    top: 200px;
+    transform: translate(-50%, 0%);
+  }
+}
+@media (max-width: 578px) {
+  .main-text {
+    font-size: 75px;
+    top: 100px;
+    transform: translate(-50%, 0%);
+  }
+}/*# sourceMappingURL=main.css.map */

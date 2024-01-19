@@ -1,0 +1,33 @@
+ .black-background{
+    background-color:$black-color;
+    color:$white-color;
+ }
+
+ .heading-section{
+    color: $white-color;
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+
+ .custom-scrollbar::-webkit-scrollbar {
+    width:6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: $vermilion;
+    border-radius: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: $white-color;
+    border-radius: 5px;
+}
+
+.custom-scrollbar p {
+    opacity: 0.7;
+}
+
+

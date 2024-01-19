@@ -1,0 +1,80 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.background-navbar {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.wrapper-red {
+    background-color: $vermilion;
+    color: $white-color;
+    border-radius: 250px;
+    height: 45px;
+    width: 155px;
+    background-color: $vermilion;
+    box-shadow: 0 4px 25px 0px $vermilion-shadow;
+    color: $white-color;
+    font-size: 18px !important;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+a {
+    color: $white-color !important;
+    ;
+}
+
+.form-control {
+    background-color: transparent !important;
+    border-radius: 250px !important;
+}
+
+.form-control::placeholder {
+    color: $white-color !important;
+
+}
+
+button {
+    background-color: $white-color !important;
+}
+
+
+.navbar.scrolled {
+    transition: background-color 0.3s ease;
+}
+
+.navbar-hidden {
+    transform: translateY(-100%);
+    transition: transform 0.3s ease;
+}
+
+.main-text {
+    font-size: 275px;
+    font-family: 'Rokkitt', serif;
+    font-style: normal;
+    font-weight: 700;
+    color: $white-color;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    text-transform: uppercase;
+}
+
+.name-city {
+    text-decoration: underline;
+}
+
+.active-link {
+    color: $vermilion;
+}
+
+.brightness {
+    filter: brightness(45%);
+}
