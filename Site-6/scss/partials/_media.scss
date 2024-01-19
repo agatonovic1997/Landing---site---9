@@ -1,0 +1,44 @@
+@media (max-width:575px) {
+    .wrapper-form {
+        background-color: $white-color;
+        border-radius: 15px;
+        top: 30vh !important;
+        transform: translateY(-50%);
+        left: 5% !important;
+
+    }
+
+    footer {
+        margin-top: 290px !important;
+    }
+}
+
+@media (max-width:992px) {
+    .wrapper-form {
+        background-color: $white-color;
+        border-radius: 15px;
+        top: 30vh !important;
+        transform: translateY(-50%);
+        left: 5% !important;
+
+    }
+
+    footer {
+        margin-top: 195px;
+    }
+}
+
+@media (max-width:290px) {
+    .wrapper-form {
+        background-color: $white-color;
+        border-radius: 15px;
+        top: 36vh !important;
+        transform: translateY(-50%);
+        left: 5% !important;
+
+    }
+
+    footer {
+        margin-top: 405px !important;
+    }
+}

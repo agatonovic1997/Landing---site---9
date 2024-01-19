@@ -1,0 +1,24 @@
+html,
+body {
+    font-family: 'Inter', sans-serif !important;
+}
+
+.text-header {
+    font-size: 14px !important;
+    color: $gray-color;
+}
+
+.line-bottom {
+    border-bottom: 1px solid $gray-color;
+}
+
+.left-border {
+    border-left: 1px solid $gray-color;
+}
+
+.navbar-toggler {
+    font-weight: 900 !important;
+    border-radius: 30px !important;
+    background-color: $gray-color !important;
+    color: $royal-blue !important
+}
