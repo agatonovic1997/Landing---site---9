@@ -1,0 +1,12 @@
+body,
+html {
+    background-color: $light-yellow !important;
+}
+
+::selection {
+    background-color: $orange-yellow-color;
+}
+
+nav {
+    font-family: 'Poppins', sans-serif;
+}
