@@ -1,0 +1,31 @@
+.white-background {
+    background-color: $white-color;
+    border-radius: 10px;
+    box-shadow: 0 0 1px $matte-black-color;
+}
+
+.small-text {
+    font-size: 10px;
+}
+
+.p-style {
+    font-family: "Inter", sans-serif !important;
+    font-weight: 800;
+    color: $dark-gray-color !important;
+}
+
+.white-text {
+    color: $white-color !important;
+}
+
+.img-right {
+    left: -210px
+}
+
+.img-center {
+    z-index: 5;
+}
+
+.img-left {
+    right: -210px;
+}

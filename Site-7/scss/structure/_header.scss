@@ -1,0 +1,33 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+.navbar-toggler {
+    background-color: $dark-gray-color !important;
+}
+
+.btn-outline-success {
+    color: $matte-black-color !important;
+    text-shadow: 0 0 2px $matte-black-color !important;
+    background-color: $sunny-yellow-color !important;
+    border-radius: 35px !important;
+    border: none !important;
+}
+
+a,
+.p-menu {
+    color: $matte-black-color !important;
+    text-shadow: 0 0 2px $matte-black-color;
+}
+
+.active {
+    color: $golden-yellow-color !important;
+    text-shadow: 0 0 2px $golden-yellow-color;
+}
+
+.dropdown-item:hover {
+    background-color: $matte-black-color !important;
+    color: $white-color !important;
+    text-shadow: 0 0 2px $white-color;
+}

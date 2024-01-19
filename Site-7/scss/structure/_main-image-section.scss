@@ -1,0 +1,56 @@
+.object-fit {
+    object-fit: cover !important;
+    height: 100%;
+    width: 100%;
+}
+
+.main-paragraf-text {
+    font-size: 45px;
+    font-weight: 500;
+    color: $white-color;
+}
+
+.text-header-wrapper {
+    top: 35vh;
+    left: 10vw;
+    transform: translateX(0%);
+    z-index: 2;
+}
+
+.height-md {
+    height: 240vh;
+}
+
+.wrapper-choice {
+    background-color: $white-color;
+    top: -50vh;
+    border-radius: 10px;
+}
+
+.paragraf-heading {
+    left: 50%;
+    transform: translateX(-25%);
+    top: -15vh;
+    font-size: 45px;
+    color: $white-color;
+    font-weight: 500 !important;
+}
+
+#btn-primary {
+    border-radius: 57px !important;
+    background-color: $sunny-yellow-color !important;
+    color: $matte-black-color !important;
+    font-weight: 500 !important;
+    text-shadow: 0 0 2px $matte-black-color !important;
+}
+
+.form-control {
+    border: none !important;
+    font-family: "Inter", sans-serif !important;
+    color: $dark-gray-color !important;
+    font-weight: 900 !important;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0px !important;
+}

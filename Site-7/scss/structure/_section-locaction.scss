@@ -1,0 +1,13 @@
+.background-gray {
+    background-color: $white-gray-color !important;
+}
+
+.black-heading {
+    color: $matte-black-color;
+    font-weight: 600;
+    text-shadow: 0 0 2px $matte-black-color;
+}
+
+iframe {
+    box-shadow: 0 0 1px $matte-black-color;
+}
