@@ -1,0 +1,53 @@
+@media (max-width:992px){
+    .vegetables-1{
+        left: 250px !important;;
+        top: -10px !important;;
+    }
+
+    .vegetables-2{
+        left:130px!important;
+        top:410px!important;
+    }
+
+    .wrapper-network{
+        top:250px!important;
+    }
+
+    .price{
+        top:35px!important;
+        left: 20px!important;
+    
+    }
+}
+
+@media (max-width:576px){
+    .wrapper-network{
+        top:180px!important;
+        right:0px!important;
+    }
+
+    .vegetables-1{
+        left:-15px!important;
+        top:10px!important;
+    }
+
+    .vegetables-2{
+        left:130px!important;
+        top:630px!important;
+    }
+
+    .price{
+        top:70px!important;
+        left: 85px!important;
+    
+    }
+
+    .white-text{
+        top:10px!important;
+    }
+
+    #background{
+        background-color: $black-green-color;
+        color:$white-color;
+    }
+}

@@ -1,0 +1,13 @@
+.green{
+    background-color: $yellow-green;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 50% 50%);
+
+}
+
+.wrapper-network{
+    box-shadow: 0 0 1px $black-green-color;
+    right: 0;
+    top:300px;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+}

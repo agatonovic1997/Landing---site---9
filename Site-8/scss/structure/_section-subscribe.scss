@@ -1,0 +1,41 @@
+.wrapper-testmonial {
+    background-color: $white-color !important;
+    border-radius: 0 55px;
+    box-shadow: 0 0 8px $black-green-color;
+    position: relative;
+    z-index: 5;
+}
+
+.img-position {
+    border-radius: 50%;
+    border: 15px solid $white-color;
+    top: -55px;
+}
+
+.far {
+    color: $yellow-green;
+}
+
+.vegetables-1 {
+    top: 85px;
+    left: 850px;
+    z-index: 1;
+}
+
+.vegetables-2 {
+    top: 420px;
+    left: 310px;
+}
+
+.vegetables-3 {
+    top: -250px;
+}
+
+
+.vegetables-4 {
+    top: -70px;
+}
+
+.vegetables-5 {
+    top: -250px;
+}

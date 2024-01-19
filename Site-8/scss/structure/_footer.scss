@@ -1,0 +1,27 @@
+.white-text{
+    color:$white-color;
+    font-weight: 900;
+    top:80px; 
+}
+
+.wrapper-input{
+    top:50%;
+    transform: translateY(-50%);
+}
+
+.input-height{
+    height: 60px;
+    border: none;
+}
+
+#button-input{
+    border-radius: 0px!important;
+    left:-250px;
+    top:2px;
+    height: 55px;
+    border-radius: 20px!important;
+}
+
+.heading-bold-footer {
+    font-weight: 900!important;
+}

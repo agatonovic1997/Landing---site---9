@@ -1,0 +1,32 @@
+html,
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+#main-button {
+    border-radius: 10px;
+    background-color: $yellow-green;
+    font-weight: 900;
+    color: $black-green-color;
+    border: none;
+}
+
+.circle {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+    border: 1px solid $black-green-color
+}
+
+
+.green-span {
+    color: $yellow-green !important
+}
+
+.heading-bold {
+    font-weight: 900 !important;
+    font-size: 40px !important;
+}

@@ -1,0 +1,26 @@
+.background-green{
+    background-color:$light-green!important;
+}
+
+.wrapper-menu{
+    background-color: rgba(255,255,255,.5);
+    border-radius: 0 40px;
+    z-index: 2;
+    position: relative;
+}
+
+.btn-primary{
+    border-radius: 50px!important;
+    background-color: $yellow-green!important;
+    color:$black-green-color!important;
+    border: none!important;
+}
+
+.price{
+    background-color: $black-green-color;
+    color:$white-color;
+    border-radius: 50%;
+    top:45px;
+    left: 55px;
+
+}
