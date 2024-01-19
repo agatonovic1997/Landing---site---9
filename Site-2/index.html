@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="sr-RS">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Site-2</title>
+
+    <!-------------------- FAVICON------------------------>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+
+    <!------------------- MAIN CSS ----------------------->
+    <link rel="stylesheet" href="./scss/main.css">
+
+    <!---------------- IMPORT BOOTSTRAP ------------------>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!---------------- IMPORT FONTAWESOME ------------------>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+    <!---------------------- HEADER ---------------------------->
+    <header class="container-xl">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img class="logo-size" src="./img/Rectangle 3854.png"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Reservation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About us</a>
+                        </li>
+                        <li class="nav-item  wrapper-red text-center">
+                            <a class="nav-link" href="#">Order now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!------------------- END-HEADER --------------------------->
+
+    <!------------------ HEADER-CARUSEL ------------------------>
+
+    <main class="main">
+        <section class="section">
+            <div class="container-fluid p-0">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                            aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./img/Rectangle 2.png" class="d-block w-100" alt="...">
+                            <div
+                                class="carousel-caption line-height d-md-flex flex-column justify-content-center align-items-start offset-4 text-start">
+                                <h5 class="text-start white-heading">Try our new meaal</h5>
+                                <span class="amber text-start">Double</span>
+                                <span class="crimson text-start">nuke</span>
+                                <span class="white text-start">burger</span>
+                                <button class="btn btn-outline-light my-xl-4 outline-radius">Order Now</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="2000">
+                            <img src="./img/Rectangle 3.png" class="d-block w-100" alt="...">
+                            <div
+                                class="carousel-caption  line-height d-md-flex flex-column justify-content-center align-items-start offset-4">
+                                <h5 class="text-start white-heading">Try our new meaal</h5>
+                                <span class="amber text-start">Double</span>
+                                <span class="crimson text-start">nuke</span>
+                                <span class="white text-start">burger</span>
+                                <button class="btn btn-outline-light my-xl-4 outline-radius">Order Now</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/Rectangle 5.png" class="d-block w-100" alt="...">
+                            <div
+                                class="carousel-caption line-height d-md-flex flex-column justify-content-center align-items-start offset-4">
+                                <h5 class="text-start white-heading">Try our new meaal</h5>
+                                <span class="amber text-start">Double</span>
+                                <span class="crimson text-start">nuke</span>
+                                <span class="white text-start">burger</span>
+                                <button class="btn btn-outline-light my-xl-4 outline-radius">Order Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                        data-bs-slide="next">
+                        <img src="./img/Group 1000001852.png" alt="Next" class="" aria-hidden="true">
+                        <span class="visually-hidden"></span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!------------------- END-HEADER --------------------------->
+
+        <!---------------------- SECTION-MEALS ---------------------------->
+        <section class="section p-0">
+            <h1 class="text-center pt-xl-4 heading-color">Our top five meals</h1>
+            <p class="text-center pb-xl-4">Try our five best meals today.</p>
+            <div class="container-xl d-flex justify-content-xl-evenly justify-content-md-between">
+                <div class="card mx-md-2 mx-xl-0 m-2" style="width: 14rem;">
+                    <img src="./img/smiley-woman-with-headphones-working-laptop 1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Beef Frenzy Burger</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="card-text m-0">47.000</p>
+                            <a href="#" class="btn btn-primary edit-button mx-1">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-md-2 mx-xl-0  m-2" style="width: 14rem;">
+                    <img src="./img/smiley-woman-with-headphones-working-laptop 1 5.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Nuke Burger</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="card-text m-0 ">27.000</p>
+                            <a href="#" class="btn btn-primary edit-button mx-1">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-md-2 mx-xl-0  m-2" style="width: 14rem;">
+                    <img src="./img/smiley-woman-with-headphones-working-laptop 2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Pizzeria</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="card-text m-0">123.000</p>
+                            <a href="#" class="btn btn-primary edit-button px-md-1 mx-1">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-md-2 mx-xl-0 d-none d-md-flex" style="width: 14rem;">
+                    <img src="./img/smiley-woman-with-headphones-working-laptop 3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Nuke Burger Madness</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="card-text m-0">110.000</p>
+                            <a href="#" class="btn btn-primary edit-button px-md-1">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mx-md-2 mx-xl-0 d-none d-md-flex" style="width: 14rem;">
+                    <img src="./img/smiley-woman-with-headphones-working-laptop 4.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="card-title">Penne Pasta Tomato Sauce</h6>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <p class="card-text m-0">52.000</p>
+                            <a href="#" class="btn btn-primary edit-button">Add to cart</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container py-md-3 py-xl-0 py-3">
+                <div class="d-flex text-center flex-column py-xl-3">
+                    <p class="m-0">See more menus</p>
+                    <i class="fas fa-chevron-down icon-character py-xl-3"></i>
+                </div>
+            </div>
+        </section>
+        <!------------------- END-SECTION-MEALS --------------------------->
+
+        <!---------------------- SECTION-CARUSEL ----------------------------->
+        <section class="section">
+            <div class="container-fluid p-0">
+                <div id="carouselExampleDark_2" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleDark_2" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./img/Rectangle 5.png" class="d-block w-100" alt="...">
+                            <div
+                                class="carousel-caption left-text line-height d-md-flex flex-column justify-content-center align-items-start text-start">
+                                <h5 class="text-start white-heading heading-5">Geet free</h5>
+                                <span class="white text-start">Fried</span>
+                                <span class="white text-start">Wonton</span>
+                                <h4 class="text-start white-heading">For every purchase NUKE BURGERS
+                                    variants.</h5>
+                                    <button class="btn btn-outline-light my-xl-4 outline-radius">Learn More</button>
+                            </div>
+                        </div>
+                        <div class="carousel-item active" data-bs-interval="10000">
+                            <img src="./img/Rectangle 3.png" class="d-block w-100" alt="...">
+                            <div
+                                class="carousel-caption left-text line-height d-md-flex flex-column justify-content-center align-items-start text-start">
+                                <h5 class="text-start white-heading heading-5">Geet free</h5>
+                                <span class="white text-start">Fried</span>
+                                <span class="white text-start">Wonton</span>
+                                <h4 class="text-start white-heading">For every purchase NUKE BURGERS
+                                    variants.</h5>
+                                    <button class="btn btn-outline-light my-xl-4 outline-radius">Learn More</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark_2"
+                        data-bs-slide="next">
+                        <img src="./img/Group 1000001852.png" alt="Next" class="" aria-hidden="true">
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-------------------- END-SECTION-CARUSEL --------------------------->
+
+            <!------------------- SECTION-RESERVATION ----------------------------->
+            <section class="section p-0 position-relative">
+                <img src="./img/Rectangle 6.png" alt="" class="img-fluid w-100 h-100">
+                <div class="carousel-caption line-height d-md-flex flex-column justify-content-center align-items-end offset-4 position-absolute text-end"
+                    style="margin-top:-15px;">
+                    <h5 class="white-heading heading-5">Get Your</h5>
+                    <span class="white text-start">Reservation</span>
+                    <button class="btn btn-outline-light my-xl-4 outline-radius">Book Now</button>
+                </div>
+            </section>
+            <!------------------ END-SECTION-RESERVATION -------------------------->
+
+            <!------------------- SECTION-MEMBERSHIP ----------------------------->
+            <section class="section">
+                <div class="container-fluid p-0">
+                    <div id="carouselExampleDark_3" class="carousel carousel-dark slide">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark_3" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark_3" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark_3" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./img/Rectangle 3.png" class="d-block w-100" alt="...">
+
+                                <div
+                                    class="carousel-caption left-text line-height d-md-flex flex-column justify-content-center align-items-start col-5 text-start">
+                                    <h5 class="text-start white-heading heading-5">Geet our</h5>
+                                    <span class="white yellow text-start">Membership</span>
+                                    <h4 class="text-start white-heading">Get a special offers and other exclusive
+                                        services
+                                        by owning a membership.</h5>
+                                        <button class="btn btn-outline-light my-xl-4 outline-radius">Learn More</button>
+                                </div>
+
+                                <div
+                                    class="carousel-caption line-height d-md-flex flex-column justify-content-center align-items-xl-end offset-5 pt-4">
+                                    <img src="./img/Rectangle 3854 7.png" alt="" class="img-fluid">
+                                </div>
+
+                            </div>
+                            <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="./img/Rectangle 5.png" class="d-block w-100" alt="...">
+
+                                <div
+                                    class="carousel-caption left-text line-height d-md-flex flex-column justify-content-center align-items-start col-5 text-start">
+                                    <h5 class="text-start white-heading heading-5">Geet our</h5>
+                                    <span class="white yellow text-start">Membership</span>
+                                    <h4 class="text-start white-heading">Get a special offers and other exclusive
+                                        services
+                                        by owning a membership.</h5>
+                                        <button class="btn btn-outline-light my-xl-4 outline-radius">Learn More</button>
+                                </div>
+
+                                <div
+                                    class="carousel-caption line-height d-md-flex flex-column justify-content-center align-items-xl-end offset-5 pt-4">
+                                    <img src="./img/Rectangle 3854 7.png" alt="" class="img-fluid">
+                                </div>
+
+                            </div>
+                        </div>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark_3"
+                            data-bs-slide="next">
+                            <img src="./img/Group 1000001852.png" alt="Next" class="" aria-hidden="true">
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+            </section>
+            <!------------------ END-SECTION-MEMBERSHIP -------------------------->
+
+            <!--------------------- SECTION-LOCATION ----------------------------->
+            <section class="section">
+                <div class="container-xl py-xl-5 py-md-4 px-md-3 py-5 px-5">
+                    <div class="row">
+                        <div class="col-xl-6 col-md-6 col-6 d-flex justify-content-center flex-column lh-1">
+                            <h5 class="heading-location lh-1">Our restaurant</h5>
+                            <h2 class="crimson-text-big height-line">Locations</h2>
+                            <p>We are available in <span class="crimson-text">JAKARTA</span>, <span
+                                    class="crimson-text">BANDUNG</span>,<br><span class="crimson-text">SURABAYA</span>,
+                                and
+                                <span class="crimson-text">BALI.</span>
+                            </p>
+                            <button class="btn btn-outline-light mb-xl-5 outline-radius-button">Learn More</button>
+                        </div>
+                        <div class="col-xl-6 col-md-6 col-6 d-flex justify-content-center flex-column">
+                            <img src="./img/indonesiaa 1.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+    </main>
+    <!------------------- END-SECTION-LOCATION --------------------------->
+
+    <!--------------------- FOOTER ----------------------------->
+    <footer class="container-fluid background-color pt-xl-5">
+        <div class="container-xl">
+
+            <div class="row d-flex align-items-center">
+                <div class="col-xl-4 pt-xl-5 pt-md-5 text-center text-md-start">
+                    <h1 class="brand-company mt-5 mt-md-0">Tasty</h1>
+                    <h1 class="brand-company mb-5 mb-md-0">good</h1>
+                </div>
+                <div class="col-xl-4 pt-xl-5 d-flex justify-content-center">
+                    <i class="fab fa-facebook px-4"></i>
+                    <i class="fab fa-instagram px-4"></i>
+                    <i class="fab fa-twitter px-4"></i>
+                    <i class="fab fa-youtube px-4"></i>
+                    <i class="fab fa-tiktok px-4"></i>
+                </div>
+            </div>
+            <div class="row d-flex">
+                <div
+                    class="d-flex align-items-center justify-content-between justify-content-xl-start align-items-xl-start col-xl-6">
+                    <div class="col-xl-3 d-flex flex-column py-xl-5 py-5">
+                        <h5>Reach us</h5>
+                        <i
+                            class="fas fa-phone my-xl-3 contact-style py-md-3 py-3 py-xl-0">&nbsp;&nbsp;&nbsp;+6281231111179</i>
+                        <i
+                            class="far fa-envelope my-xl-3 contact-style py-md-3 py-3 py-xl-0">&nbsp;&nbsp;&nbsp;demo@gmail.com</i>
+                        <i class="fas fa-map-marker-alt my-xl-3 contact-style py-md-3 py-3 py-xl-0">&nbsp;&nbsp;&nbsp;xxx
+                            xxx</i>
+                    </div>
+                    <div class="col-xl-6 py-xl-5 align-items-center px-xl-5 offset-xl-2 offset-md-0">
+                        <h5>Quick Links</h5>
+                        <p class="contact-style-2 my-xl-4">Contact Us</p>
+                        <p class="contact-style-2 my-xl-4">Payment Shipping</p>
+                        <p class="contact-style-2 mt-xl-4">FAQs</p>
+                        <p class="contact-style-2 my-xl-4">Tracking Orders</p>
+                    </div>
+                </div>
+
+                <div
+                    class="col-xl-6 pb-xl-5 d-flex align-items-end justify-content-end justify-content-md-center justify-content-center">
+                    <div class="wrapper-input-button p-xl-3 py-4 py-md-0 position-relative">
+                        <h3 class="heading-wrapper-email px-md-3 px-3 py-md-2">Join our <span
+                                class="red-span">newsletter</span>
+                        </h3>
+                        <input type="text" class="input-style mx-md-3 mx-xl-0 mx-3" placeholder="Yor email adress">
+                        <button class="black-button offset-md-7 offset-6">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright d-flex d-flex justify-content-center pt-xl-5 pt-4">
+                <p>&copy;2023 Tasty Good. All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <!------------------- END-FOOTER --------------------------->
+
+    <section class="container-fluid wrapper-break">
+    </section>
+
+    <!---------------------------------------------->
+    <!------------------- ADDED FORM --------------------------->
+    <section class="background-color d-flex justify-content-center">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-3 d-flex justify-content-center align-items-center">
+                    <h3 class="h3-heading px-xl-3 py-md-3 py-xl-3 text-center text-xl-start">Make a reservation</h3>
+                </div>
+                <div
+                    class="col-xl-4 col-md-8 py-md-5 offset-md-2 offset-xl-0 d-flex justify-content-xl-end justify-content-md-center background-white-color radius my-xl-5">
+                    <img src="./img/3959915 1.png" alt="" class="img-fluid p-3">
+                </div>
+                <div
+                    class="col-xl-4 col-md-8 offset-md-2 offset-xl-0 d-flex justify-content-xl-center align-items-center background-white-color radius-2 my-xl-5">
+                    <form class="row">
+                        <h3 class="text-center pb-xl-3 py-md-3 py-4">Fill the form</h3>
+                        <div class="col-6">
+                            <label for="inputName" class="form-label">Name*</label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Enter your name">
+                        </div>
+                        <div class="col-6">
+                            <label for="inputState" class="form-label">Amount of people*</label>
+                            <select id="inputState" class="form-select">
+                                <option selected>Choose...</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                        <div class="col-6">
+                            <label for="date" class="form-label py-xl-2">Date*</label>
+                            <input type="date" class="form-control" id="date">
+                        </div>
+                        <div class="col-6">
+                            <label for="time" class="form-label py-xl-2">Time*</label>
+                            <input type="time" class="form-control" id="time">
+                        </div>
+                        <div class="col-6">
+                            <label for="inputEmail4" class="form-label py-xl-2">Email*</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your email">
+                        </div>
+                        <div class="col-6">
+                            <label for="inputNumber" class="form-label py-xl-2">Number*</label>
+                            <input type="number" class="form-control" id="inputNumber"
+                                placeholder="Enter your phone number">
+                        </div>
+                        <div class="col-12 my-3">
+                            <h5 class="py-xl-2">Comments (Optional)</h5>
+                            <textarea cols="30" rows="4" class="w-100"></textarea>
+                        </div>
+                        <div class="col-12 py-md-4 py-xl-0 pb-4">
+                            <button class="btn btn-primary w-100 button-send">Book a table</button>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------- END-ADDED FORM ------------------------->
+    <!---------------------------------------------->
+
+
+    <!------------------- MAIN JS ----------------------->
+    <script src="./js/main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

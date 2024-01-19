@@ -1,0 +1,100 @@
+.background-color {
+    background-color: $crimson-color;
+    color: $white-color;
+}
+
+.brand-company {
+    text-transform: uppercase !important;
+    line-height: 35px;
+
+}
+
+.contact-style {
+    font-size: 14px !important;
+    color: $white-color;
+    text-transform: lowercase !important;
+    line-height: normal;
+}
+
+.contact-style-2 {
+    line-height: normal !important;
+    font-size: 16px !important;
+}
+
+.wrapper-input-button {
+    background-color: $white-color !important;
+    border-radius: 10px;
+    width: 480px;
+    height: 155px;
+
+}
+
+.heading-wrapper-email {
+    color: $black-color;
+    text-transform: capitalize;
+}
+
+.red-span {
+    color: $crimson-color;
+}
+
+.input-style {
+    width: 425px;
+    height: 60px;
+    background-color: $light-gray-color;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.black-button {
+    background-color: $black-color;
+    width: 165px;
+    height: 60px;
+    color: $white-color;
+    border-radius: 10px;
+    transform: translateY(-100%);
+
+}
+
+// -------------------------------------------------------
+
+.wrapper-break {
+    height: 85px;
+    background-color: $brown-color;
+}
+
+.button-send {
+    background-color: $crimson-color !important;
+    border-radius: 35px !important;
+    border: none !important;
+}
+
+.background-white-color {
+    background-color: $white-color;
+    color: $black-color;
+}
+
+.h3-heading {
+    font-size: 45px !important;
+}
+
+textarea {
+    border: none;
+    background-color: $light-gray-color;
+    border-radius: 5px;
+    resize: none !important;
+}
+
+.radius {
+    border-radius: 35px 0px 0px 35px;
+}
+
+.radius-2 {
+    border-radius: 0px 35px 35px 0px;
+}
+
+.form-control,
+.form-select {
+    background-color: $light-gray-color !important;
+}

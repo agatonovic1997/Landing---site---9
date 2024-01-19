@@ -1,0 +1,26 @@
+.heading-location {
+    color: $black-color;
+    font-size: 54px;
+}
+
+.crimson-text-big {
+    font-size: 100px;
+    color: $crimson-color;
+}
+
+.crimson-text {
+    color: $crimson-color;
+    font-size: 25px;
+}
+
+.outline-radius-button {
+    width: 175px;
+    height: 65px;
+    border-radius: 120px !important;
+    border: 3px solid $crimson-color !important;
+    color: $crimson-color !important;
+}
+
+.height-line {
+    line-height: 75px;
+}

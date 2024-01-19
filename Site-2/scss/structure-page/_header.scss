@@ -1,0 +1,21 @@
+ body {
+     font-family: 'TT Commons Pro Black', sans-serif!important;
+     background-color: $white-color;
+     overflow-x: hidden;
+ }
+ 
+ .logo-size {
+    width: 60px;
+    height: 30px;
+ }
+
+ .wrapper-red{
+    background-color: $crimson-color;
+    width:100px;
+    height: 40px;
+    border-radius:35px;
+    a{
+        color: $white-color!important;
+    }
+
+ }

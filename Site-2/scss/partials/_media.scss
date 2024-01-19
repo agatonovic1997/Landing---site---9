@@ -1,0 +1,114 @@
+@media (max-width:992px) {
+
+    .amber,
+    .crimson,
+    .white {
+        font-size: 60px !important;
+        line-height: 55px;
+    }
+
+    .card {
+        width: 16rem !important;
+    }
+
+    .card-title {
+        font-size: 9px;
+    }
+
+    .carousel-caption {
+        padding-bottom: 3.25rem !important;
+    }
+
+    .heading-location {
+        font-size: 40px !important;
+    }
+
+    .crimson-text-big {
+        font-size: 75px !important;
+    }
+
+    .radius,
+    .radius-2 {
+        border-radius: 35px !important;
+    }
+
+    .edit-button {
+        font-size: 8px !important;
+    }
+
+}
+
+@media (max-width:576px) {
+    .heading-location {
+        font-size: 20px !important;
+    }
+
+    .crimson-text-big {
+        font-size: 45px !important;
+    }
+
+    .crimson-text {
+        font-size: 20px !important;
+    }
+
+    .input-style {
+        width: 350px !important;
+    }
+
+    .black-button {
+        margin-left: 205px !important;
+    }
+
+    .amber {
+        font-size: 30px !important;
+        line-height: 0.8;
+        position: relative;
+    }
+
+    .crimson {
+        font-size: 30px !important;
+        line-height: 1.2;
+        position: relative;
+    }
+
+    .heading-5 {
+        font-size: 20px !important;
+
+    }
+
+    .white {
+        font-size: 20px !important;
+        line-height: 1.2;
+        position: relative;
+    }
+
+    .white-heading {
+        font-size: 10px !important;
+    }
+
+    .outline-radius {
+        width: 90px !important;
+        min-height: 30px !important;
+        font-size: 8px !important;
+    }
+
+    .outline-radius-button {
+        width: 90px !important;
+        height: 35px !important;
+        font-size: 8px !important;
+    }
+
+    .line-height {
+        line-height: 0px !important;
+    }
+
+    .carousel-caption {
+        margin-top: -35px;
+        padding-top: 0px !important;
+    }
+
+    .carousel-control-next{
+        right: 30px!important;
+    }
+
+}

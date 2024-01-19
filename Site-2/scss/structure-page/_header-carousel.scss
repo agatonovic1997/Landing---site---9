@@ -1,0 +1,36 @@
+.amber {
+    font-size: 100px;
+    color: $amber-color;
+    text-transform: uppercase;
+}
+
+.crimson {
+    font-size: 100px;
+    color: $crimson-color;
+    text-transform: uppercase;
+}
+
+.white {
+    font-size: 100px;
+    color: $white-color;
+    text-transform: uppercase;
+}
+
+.white-heading {
+    color: $white-color;
+}
+
+.line-height {
+    line-height: 80px;
+}
+
+.carousel-caption {
+    top: 45px !important;
+}
+
+.outline-radius {
+    width: 175px;
+    min-height: 65px;
+    border-radius: 120px !important;
+    border: 3px solid $white-color !important;
+}
