@@ -1,0 +1,24 @@
+input[type="text"] {
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 0 1px $black-color;
+}
+
+#button {
+    border-radius: 4px;
+    background-color: $steel-blue-color;
+    border: none !important;
+}
+
+.background-white {
+    background-color: $white-color;
+}
+
+::placeholder {
+    color: $steel-blue-color;
+}
+
+.no-line {
+    box-shadow: none !important;
+}
